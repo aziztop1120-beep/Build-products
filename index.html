@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Build products </title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          brandGreen: '#0f6b4c',
+          darkGreen: '#0b3d2e',
+          ink: '#161616',
+          navy: '#1c2333',
+        }
+      }
+    }
+  }
+</script>
+</head>
+<body class="bg-white text-ink font-sans">
+
+  <!-- ============ ANNOUNCEMENT ============ -->
+  <div class="relative bg-[#f4f3ef] border-b border-gray-200 flex items-center justify-center gap-2.5 py-2.5 px-4 text-[13px]">
+    <span class="text-[10px] tracking-wider text-gray-500 border-r border-gray-300 pr-2.5">WEBINAR</span>
+    <span>Watch Goldman Sachs, Nacha, and Modern Treasury discuss the future of embedded payments.</span>
+    <a href="#" class="text-brandGreen font-semibold">Watch the webinar. &rsaquo;</a>
+    <button aria-label="Dismiss" class="absolute right-4 top-1/2 -translate-y-1/2 text-ink text-sm">&times;</button>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <nav class="relative flex items-center justify-between px-8 py-4.5 border-b border-gray-100">
+    <div class="font-bold text-lg tracking-tight">Modern Treasury</div>
+    <ul class="hidden md:flex gap-8 list-none absolute left-1/2 -translate-x-1/2">
+      <li><a href="#" class="text-ink text-sm">Platform</a></li>
+      <li><a href="#" class="text-ink text-sm">Solutions</a></li>
+      <li><a href="#" class="text-ink text-sm">Resources</a></li>
+      <li><a href="#" class="text-ink text-sm">Pricing</a></li>
+    </ul>
+    <div class="flex items-center gap-5">
+      <a href="#" class="text-ink text-sm">Log in</a>
+      <a href="#" class="inline-flex items-center gap-1.5 bg-brandGreen text-white text-sm font-medium px-5 py-2.5 rounded-full">Sign up &rsaquo;</a>
+      <button aria-label="Search" class="flex items-center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center px-6 md:px-16 pt-16 pb-24">
+    <div>
+      <h1 class="text-4xl md:text-5xl leading-[1.08] tracking-tight font-medium mb-6">
+        Build products<br>that move money
+      </h1>
+      <p class="text-gray-600 text-[17px] leading-relaxed max-w-md mb-8">
+        Modern Treasury's payment operations platform and flexible APIs enable you to add money movement and tracking to your products without the heavy lifting.
+      </p>
+      <div class="flex items-center gap-7">
+        <a href="#" class="inline-flex items-center gap-1.5 bg-brandGreen text-white text-sm font-medium px-5 py-2.5 rounded-full">Talk to a Payments Advisor &rsaquo;</a>
+        <a href="#" class="inline-flex items-center gap-1 text-brandGreen font-medium text-[15px]">Start building &rsaquo;</a>
+      </div>
+    </div>
+    <div>
+      <img src="./img/image.png"
+           alt="Two colleagues standing at a desk in a modern office"
+           class="w-full rounded-sm block">
+      <div class="text-center text-sm text-gray-600 mt-3.5">Modernize your company's money movement</div>
+    </div>
+  </section>
+
+  <!-- ============ STAT BANNER ============ -->
+  <section class="text-center px-6 py-[100px] border-t border-gray-100">
+     <br><br><br><br><br><br><br> 
+    <h2 class="text-3xl md:text-4xl font-medium mb-3">
+      Over <span class="text-brandGreen">$5B</span> Reconciled Monthly
+    </h2>
+    <p class="text-gray-600 mb-10">Trusted by fast-growing companies in the economy's most important sectors.</p>
+    <br><br><br><br><br><br><br> 
+    <a href="#" class="inline-flex items-center gap-1 text-brandGreen font-medium text-xl">Read customer case studies &rsaquo;</a>
+  </section>
+
+  <!-- ============ REPORT BANNER ============ -->
+  <section class="bg-[#12231c] text-white">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-8 md:px-16 py-16">
+      <div>
+        <p class="uppercase tracking-widest text-xs text-green-300 mb-4">The State of Payment Operations</p>
+        <h2 class="text-3xl font-medium mb-5">Money's Next Move</h2>
+        <p class="text-gray-300 text-sm leading-relaxed max-w-md mb-7">
+          It's 2022, and financial services are at an inflection point. It's natural to have questions. We did too. So, Modern Treasury and Harris Poll conducted a survey where financial and product execs revealed the current issues they face while managing payment operations.
+        </p>
+        <div class="flex items-center gap-6">
+          <a href="#" class="inline-flex items-center gap-1.5 bg-green-200 text-darkGreen text-sm font-medium px-5 py-2.5 rounded-full">Download the Report &rsaquo;</a>
+          <a href="#" class="inline-flex items-center gap-1 text-green-200 text-sm font-medium">Learn more &rsaquo;</a>
+        </div>
+      </div>
+<img src="./img/image copy 2.png" alt="">
+    </div>
+  </section>
+
+  <!-- ============ OUR PRODUCTS ============ -->
+  <section class="bg-darkGreen text-white">
+    <div class="max-w-3xl mx-auto text-center px-6 pt-20 pb-10">
+      <h2 class="text-3xl md:text-4xl font-medium mb-5">Our Products</h2>
+      <p class="text-gray-300 text-[15px] leading-relaxed">
+        There's a lot more to money movement than just moving money. Our APIs automate money movement at scale, including bank integration, payments, and reconciliation, while the web app provides complete control over fund flows with approval workflows, notifications, reporting, and more.
+      </p>
+    </div>
+
+    <!-- Payments -->
+    <div class="max-w-6xl mx-auto px-8 md:px-16 py-16 flex">
+
+      <img src="./img/image copy 4.png" alt="ig" class="w-60 rounded-sm mb-8 md:mb-0">
+      <div class="max-w-md ml-auto text-right md:text-left">
+        <p class="uppercase tracking-widest text-xs text-green-300 mb-3">Payments</p>
+        <h3 class="text-2xl font-medium mb-4">Move money faster</h3>
+        <p class="text-gray-300 text-sm leading-relaxed mb-6">
+          We integrate directly with your bank instead of sitting in the flow of funds, so payments move 2x faster. Set up approval rules and track payments from initiation to reconciliation, with support for ACH, RTP, Wire and global payment methods through a single API and web app.
+        </p>
+        <a href="#" class="inline-flex items-center gap-1.5 bg-green-200 text-darkGreen text-sm font-medium px-5 py-2.5 rounded-full">Learn about Payments &rsaquo;</a>
+      </div>
+    </div>
+
+    <!-- Virtual Accounts -->
+    <div class="border-t border-white/10 max-w-6xl mx-auto px-8 md:px-16 py-16 flex gap-60">
+      
+      <div class="max-w-md">
+        <p class="uppercase tracking-widest text-xs text-green-300 mb-3">Virtual Accounts</p>
+        <h3 class="text-2xl font-medium mb-4">Reconcile payments automatically</h3>
+        <p class="text-gray-300 text-sm leading-relaxed mb-6">
+          We automatically reconcile completed payments to transactions on your bank statement as they are posted and match returns and reversals to the original payment, streamlining cash reconciliation. Our Virtual Accounts product makes it easy to create and manage unique sub-accounts within your bank account to automate attributing incoming payments.
+        </p>
+        <a href="#" class="inline-flex items-center gap-1.5 bg-green-200 text-darkGreen text-sm font-medium px-5 py-2.5 rounded-full">Learn about Virtual Accounts &rsaquo;</a>
+      </div>
+            <img src="./img/image copy 5.png" alt="img" class="w-60 rounded-sm mb-8 md:mb-0 ">
+    </div>
+
+    <!-- Ledgers -->
+    <div class="border-t border-white/10 max-w-6xl mx-auto px-8 md:px-16 py-16 flex gap-16">
+      <img src="./img/image copy 3.png" alt="Ledgers" class="w-60 rounded-sm mb-8 md:mb-0">
+      <div class="max-w-md ml-auto text-right md:text-left">
+        <p class="uppercase tracking-widest text-xs text-green-300 mb-3">Ledgers</p>
+        <h3 class="text-2xl font-medium mb-4">Track balances in real time</h3>
+        <p class="text-gray-300 text-sm leading-relaxed mb-6">
+          We make it easy for products that move money at scale to track balances in real time with Ledgers, a managed database optimized for high volume financial transactions that can be integrated in a few lines of code. Ledgers is immutable, idempotent, and auditable, providing a reliable source of truth for all transactions taking place in your product.
+        </p>
+        <a href="#" class="inline-flex items-center gap-1.5 bg-green-200 text-darkGreen text-sm font-medium px-5 py-2.5 rounded-full">Learn about Ledgers &rsaquo;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ USE CASES ============ -->
+  <section class="max-w-5xl mx-auto px-6 py-24 text-center">
+    <h2 class="text-3xl md:text-4xl font-medium mb-3">Use Cases</h2>
+    <p class="text-gray-600 mb-16">Use our flexible, scalable platform to move and track money however your product needs.</p>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-12 text-left">
+      <div>
+        <div class="text-brandGreen mb-3">&#8635;</div>
+        <h4 class="font-medium mb-2">Automatic Payouts</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Automate payouts and reconciliation at scale for multiple payment methods through a single API.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#8681;</div>
+        <h4 class="font-medium mb-2">Incoming Payments</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Streamline receiving and reconciling incoming payments with Virtual Accounts, automated notifications and reporting.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#8644;</div>
+        <h4 class="font-medium mb-2">Direct Debits</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Manage direct debits at scale with bank account verification, NSF checks and real-time payment statuses.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#128176;</div>
+        <h4 class="font-medium mb-2">Cash Management</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Simplify funds segregation and custody, and initiate book transfers across multiple bank accounts.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#128179;</div>
+        <h4 class="font-medium mb-2">Digital Wallets</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Create a digital wallet experience from scratch — issue account numbers, track balances, and initiate and receive payments.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#128202;</div>
+        <h4 class="font-medium mb-2">Investing Operations</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Fund investment accounts, track assets, and manage withdrawals with APIs and software.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#128214;</div>
+        <h4 class="font-medium mb-2">Loan Servicing</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Automate disbursals, track loan balances and instantly reconcile loan repayments to scale lending operations.</p>
+      </div>
+      <div>
+        <div class="text-brandGreen mb-3">&#8646;</div>
+        <h4 class="font-medium mb-2">Fiat On-Ramp</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Convert fiat to crypto in your app with APIs for ACH debits, withdrawals and incoming wire reconciliation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MADE FOR DEVELOPERS ============ -->
+  <section class="bg-navy text-white">
+    <div class="max-w-6xl mx-auto px-8 md:px-16 py-20">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <h2 class="text-3xl md:text-4xl font-medium mb-4">Made for developers</h2>
+        <p class="text-gray-300 text-[15px] leading-relaxed">
+          Integrate Modern Treasury with REST APIs and webhooks. Our platform abstracts the complexity of bank integration, payment initiation and reconciliation, and balance tracking so that you can focus on your product.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <p class="text-sm font-medium mb-5">With our APIs you can:</p>
+          <ul class="space-y-4 text-sm">
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full bg-white block"></span>Onboard and verify counterparties.</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full border border-gray-500 block"></span>Make and receive payments.</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full border border-gray-500 block"></span>Monitor payment status in real time.</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full border border-gray-500 block"></span>Check bank account balances.</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full border border-gray-500 block"></span>Create and manage virtual accounts.</li>
+            <li class="flex items-center gap-3"><span class="w-2 h-2 rounded-full border border-gray-500 block"></span>Add ledger functionality with double-entry bookkeeping.</li>
+          </ul>
+          <a href="#" class="inline-flex items-center gap-1 text-green-300 text-sm font-medium mt-8">Explore the docs &rsaquo;</a>
+        </div>
+
+        <div class="bg-[#0f1524] rounded-lg overflow-hidden border border-white/10">
+          <div class="flex items-center justify-between px-4 py-2 border-b border-white/10 text-xs text-gray-400">
+            <span>cURL</span>
+            <span>&lt;/&gt;</span>
+          </div>
+          <pre class="p-4 text-xs leading-relaxed overflow-x-auto"><code><span class="text-purple-400">curl</span> <span class="text-blue-300">--request</span> <span class="text-green-300">POST</span> \
+  <span class="text-blue-300">-u</span> ORGANIZATION_ID:API_KEY \
+  <span class="text-blue-300">--url</span> https://app.moderntreasury.com/api/counterparties \
+  <span class="text-blue-300">-H</span> <span class="text-yellow-200">'Content-Type: application/json'</span> \
+  <span class="text-blue-300">-d</span> '{
+  "name": "Kenner, Bach &amp; Ledeer",
+  "accounts": [{
+    "account_type": "checking",
+    "routing_details": [{
+      "routing_number_type": "aba",
+      "routing_number": "026009593"
+    }],
+    "account_details": [{
+      "account_number": "123456789"
+    }]
+  }]
+}'</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BANK ACCOUNTS ============ -->
+  <section class="bg-navy text-white text-center px-6 pt-20 pb-32">
+    <h2 class="text-3xl md:text-4xl font-medium mb-4">All your bank accounts in one place</h2>
+    <p class="text-gray-300 text-[15px] max-w-2xl mx-auto leading-relaxed mb-6">
+      Our partnerships with leading commercial banks enable us to integrate directly with their core systems, helping you manage access to bank accounts, payments, transactions, cash balances and more through a single portal and API.
+    </p>
+    <a href="#" class="inline-flex items-center gap-1 text-green-300 text-sm font-medium">Learn more about our bank integrations &rsaquo;</a>
+  </section>
+
+  <!-- Bank logos card (overlaps) -->
+  <div class="max-w-4xl mx-auto -mt-24 mb-8 px-6">
+    <div class="  ">
+ <img src="./img/image copy.png" alt="" class="w-[900px] object-contain">
+    </div>
+  </div>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="text-center px-6 pb-24">
+    <p class="text-lg mb-6">Try Modern Treasury and see how smooth payment operations can be.</p>
+    <div class="flex items-center justify-center gap-6">
+      <a href="#" class="inline-flex items-center gap-1.5 bg-brandGreen text-white text-sm font-medium px-5 py-2.5 rounded-full">Talk to a Payments Advisor &rsaquo;</a>
+      <a href="#" class="inline-flex items-center gap-1 text-brandGreen font-medium text-sm">Sign up &rsaquo;</a>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-[#12181f] text-gray-300">
+    <div class="max-w-6xl mx-auto px-8 md:px-16 py-16 grid md:grid-cols-5 gap-10">
+      <div class="md:col-span-1">
+        <h4 class="text-white font-medium mb-3">Subscribe to journal updates</h4>
+        <p class="text-sm text-gray-400 mb-4">Discover product features and get primers on the payments industry.</p>
+        <a href="#" class="inline-flex items-center gap-1.5 bg-brandGreen text-white text-sm font-medium px-4 py-2 rounded-full mb-8">Subscribe &rsaquo;</a>
+
+        <h4 class="text-white font-medium mb-3 text-sm">Popular guides</h4>
+        <ul class="space-y-2 text-sm text-gray-400 mb-8">
+          <li>How Neobanks Can Use Virtual Accounts</li>
+          <li>Which Bank Partner is Best for You?</li>
+          <li>When and How to Set Up an FBO Account?</li>
+        </ul>
+
+        <h4 class="text-white font-medium mb-3 text-sm">Popular integrations</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li>Citibank</li>
+          <li>JP Morgan Chase</li>
+          <li>Silicon Valley Bank</li>
+          <li>Wells Fargo</li>
+          <li>NetSuite</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-4 text-sm">Products</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li>Payments</li>
+          <li>Ledgers</li>
+          <li>Virtual Accounts</li>
+          <li>Compliance</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-4 text-sm">Platform</h4>
+        <ul class="space-y-2 text-sm text-gray-400 mb-8">
+          <li>Pricing</li>
+          <li>How It Works</li>
+          <li>Why Choose Us</li>
+          <li>Integrations</li>
+          <li>Customers</li>
+        </ul>
+        <h4 class="text-white font-medium mb-4 text-sm">Solutions</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li>Finance</li>
+          <li>Developers</li>
+          <li>For Banks</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-4 text-sm">Resources</h4>
+        <ul class="space-y-2 text-sm text-gray-400 mb-8">
+          <li>Journal</li>
+          <li>Learn</li>
+          <li>Help</li>
+        </ul>
+        <h4 class="text-white font-medium mb-4 text-sm">Developers</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li>Quickstart</li>
+          <li>API Reference</li>
+          <li>Guides</li>
+          <li>Changelog</li>
+          <li>Status</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-medium mb-4 text-sm">Company</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+          <li>About</li>
+          <li>Contact</li>
+          <li>Newsroom</li>
+          <li>Careers</li>
+          <li>Security</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-white/10 px-8 md:px-16 py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+      <div class="flex items-center gap-2">
+        <span class="text-lg">&#9873;</span> Made with <span class="text-yellow-400">&#9679;</span> in Los Angeles
+      </div>
+      <div class="flex items-center gap-6">
+        <span>&copy; Modern Treasury Corp</span>
+        <span>Privacy</span>
+        <span>Terms of Service</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span>&#128225;</span><span>&#128188;</span><span>&#128241;</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
